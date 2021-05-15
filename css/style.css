@@ -1,12 +1,17 @@
 body{
+	margin:0;
 	background-color: #FFFFFF;
 }
 header{
-	position: relative;
-	max-width: 100%;
-	overflow: auto;
+	background: white;
+	width: 100%;
+	position: fixed;
+	z-index: 10000;
 }
 
+main{
+	padding-top: 220px;
+}
 
 #logo{
 	height: 150px;
@@ -16,10 +21,9 @@ header{
 }
 
 #menu{
-	position: -webkit-sticky;
-	position: sticky;
+	
 	top: 0;
-	background-color: #4F4A41;
+	background-color:white;
 	list-style-type: none;
 	overflow: hidden;
 	text-decoration: none;
