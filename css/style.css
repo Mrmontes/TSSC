@@ -147,3 +147,47 @@ li a:hover{
 	color: gray;
 	text-decoration: line-through;
 }
+
+
+.Productos{
+	padding-top: 100px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.produFlex{
+	display: flex;
+	justify-content: space-between;
+}
+
+.textProdu{
+	margin-left: 50px;
+	font-size: 40px;
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
+
+.sqr{
+	margin: auto;
+	margin-bottom: 50px;
+	width: 200px;
+	height: 200px;
+}
+
+.sqr img{
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+	width: auto;
+	height: auto;
+}
+
+.sqr h3{
+	position: absolute;
+	top: 50%;
+	bottom: 50%;
+}
+
+hr{
+	width: 70px;
+}
