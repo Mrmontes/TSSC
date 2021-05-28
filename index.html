@@ -5,22 +5,22 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>PyroSK8</title>
+	<script src="javaS.js"></script>
 	<link rel="stylesheet" href="css/style.css">
+
 	<link rel="shortcut icon" type="icon/x-icon" href="img/LOGO.png">
 </head>
 <body>
 	<header>
-		<section class="header">
-			<div class="main-header">
-				<a href="index.html"><img id="logo" src="img/logo.png" alt="logoPyro"></a>
-			</div>
-
-			<nav class="nav">
-				<ul id="menu">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="html/shop">Shop</a></li>
-					<li><a href="html/about">About</a></li>
+		<section>
+			<a href="index.html"><img id="logo" src="img/logo.png" alt="logoPyro"></a>
+			<nav>
+				<ul class="menu">
+					<li><a href="#logo">Inicio</a></li>
+					<li><a href="#idOF">Tienda</a></li>
+					<li><a href="#conocenos">Nosotros</a></li>
 					<li><a href="https://www.instagram.com/pyro_skateshop/?hl=es-la"><img id="insta" src="img/icon.png" onmouseover="this.src='img/iconW.png'" onmouseout="this.src='img/icon.png'"></a></li>
+					
 				</ul>
 			</nav>
 		</section>
@@ -36,69 +36,157 @@
 			<a href="#"><img src="img/FA.jpg" class="SliderImg"></a>
 		</figure>
 	</div>
-    <main>
+	<main>
 
-		<div class="ofertas">
+		<!-- Burbujas de ofertas -->
+		<div  id="idOF" class="ofertas">
+
 			<h2>Ofertas disponibles</h2>
 			<div class="items">
 				<div class="item">
 					<img  class="img-ciruclar" src="img/sierraHW.jpg" alt="Tornillos sierra">
 					<h3>Tornillos sierra</h3>
 					<p>$90 <span>$120</span></p>
+
+
+					<button class="cart-button">
+						<span class="add-to-cart">Agregar al carrito</span>
+						<span class="added"></span>
+						<i class="fa fa-shopping-cart"></i>
+					</button>
+
 				</div>
 				<div class="item">
 					<img  class="img-ciruclar" src="img/Cleaner.jpg" alt="Tornillos sierra">
 					<h3>Limpiador Mob</h3> 
 					<p>$200 <span>$250</span></p>
+
+
+					<button class="cart-button">
+						<span class="add-to-cart">Agregar al carrito</span>
+						<span class="added"></span>
+						<i class="fa fa-shopping-cart"></i>
+					</button>
+
+
 				</div>
 				<div class="item">
 					<img  class="img-ciruclar" src="img/eggie.jpg" alt="Tornillos sierra">
 					<h3>Llantas Travel On</h3>
 					<p>$500 <span>$650</span></p>
+
+
+					<button class="cart-button">
+						<span class="add-to-cart">Agregar al carrito</span>
+						<span class="added"></span>
+						<i class="fa fa-shopping-cart"></i>
+					</button>
+
 				</div>
 				<div class="item">
 					<img  class="img-ciruclar" src="img/trucks.jpg" alt="Tornillos sierra">
 					<h3>Ejes independet</h3>
 					<p>$950 <span>$1200</span></p>
+ 
+
+					<button class="cart-button">
+						<span class="add-to-cart">Agregar al carrito</span>
+						<span class="added"></span>
+						<i class="fa fa-shopping-cart"></i>
+					</button>
+
 				</div> 
 			</div>
 		</div> 
 
+    <hr>
+
+		<!-- Lista de productos -->
 		<div class="Productos">
 			<div class="produFlex">
 				<h2 class="textProdu">Productos</h2>
-				<div class="sqr"><img src="img/WWtabla.jpg"><h3>Patinetas</h3></div>
-				<div class="sqr"><img src="img/trucksIndy.jpg"><h3>Ejes</h3></div>
-				<div class="sqr"><img src="img/bonesWhls.png"><h3>Llantas</h3></div>
-				<div class="sqr"><img src="img/bonesBearings.jpg"><h3>Baleros</h3></div>
+				<div class="sqr">
+					<img src="img/WWtabla.jpg">
+					<div class="image__overlay">
+						<div class="image__title"> Patinetas </div>
+					</div>
+				</div>
+				<div class="sqr">
+					<img src="img/trucksIndy.jpg">
+					<div class="image__overlay">
+						<div class="image__title">Ejes</div>
+					</div>
+				</div>
+				<div class="sqr">
+					<img src="img/bonesWhls.png">
+					<div class="image__overlay">
+						<div class="image__title">Llantas</div>
+					</div>
+				</div>
+				<div class="sqr">
+					<img src="img/bonesBearings.jpg">
+					<div class="image__overlay">
+						<div class="image__title">Baleros</div>
+					</div>
+				</div>
 			</div>
-		<hr>
+			<hr>
 			<div class="produFlex">
 				<h2 class="textProdu">Productos</h2>
-				<div class="sqr"><img src="img/lija.jpg"> <h3>Lija</h3></div>
-				<div class="sqr"><img src="img/hardware.jpg"><h3>Tornillos</h3></div>
-				<div class="sqr"><img src="img/playfun.jpg"><h3>Ropa</h3></div>
-				<div class="sqr"> <img src="img/santaCruzTaza.jpg"><h3>Accesorios</h3></div>
+				<div class="sqr"><img src="img/lija.jpg">
+					<div class="image__overlay">
+						<div class="image__title">Lijas</div>
+					</div>
+				</div>
+				<div class="sqr"><img src="img/hardware.jpg">
+					<div class="image__overlay">
+						<div class="image__title">Tornillos</div>
+					</div>
+				</div>
+				<div class="sqr">
+					<img src="img/playfun.jpg">
+					<div class="image__overlay">
+						<div class="image__title">Ropa</div>
+					</div>
+				</div>
+				<div class="sqr"> <img src="img/santaCruzTaza.jpg">
+					<div class="image__overlay">
+						<div class="image__title">Accesorios</div>
+					</div>
+				</div>
 			</div>
 		</div>
 
 
+		<div  id="conocenos" class="conoce">
+			<img  src="img/tienda.jpg">
+			<div class="info">
+				<h2>Ven y conoce Pyro Skateshop</h2>
+				<p>La mejor tienda de skateboarding de Mexicali con 12 años de experiencia</p>
+				<ul>
+					<li>Lunes a sabado de 12 pm a 7:30 pm</li>
+					<li>Av Sindicato de turismo, 1ro de Diciembre, 21260 Mexicali, B.C.</li>
+				</ul>
+
+		
 	</main>
 
 	<footer>
-		<div id="SocialMedia">
-			<ul>
-				<li><a href="https://www.facebook.com/PyroClothingSkateboards"></a></li>
-				<li><a href="https://www.instagram.com/pyro_skateshop/?hl=es-la"></a></li>
-			</ul>
-		</div>
 		<div id="Contacto">
 			<h3>Contacto</h3>
-			<p>Av Sindicato de turismo, 1ro de Diciembre, 21260 Mexicali, B.C.</p>
-			<p>686-227-2656</p>
-			<p>ebeltran8@uabc.edu.mx</p>
+			<img src="img/pinIcon.png"><p>Av Sindicato de turismo, 1ro de Diciembre, 21260 Mexicali, B.C.</p>
+			<img src="img/phone.png"><p>686-227-2656</p>
+			<img src="img/email.png"><p>ebeltran8@uabc.edu.mx</p>
 		</div>
 	</footer>
 
 </body>
 </html>
+
+
+
+
+
+
+
+<!--El boton de compra no funciona, lo copie de aqui -->
